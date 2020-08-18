@@ -20,12 +20,12 @@ To run, you have two options:
 * Open Steam and access the game library on the left-hand side.
 * Right-click on CSGO and click "Properties"
 * Click "Set Launch Options"
-* Add "+exec <filename>" and then click "OK" (eg: for filename "custom.cfg", the command will be "+exec custom.cfg")
+* Add `+exec <filename>` and then click "OK" (eg: for filename `custom.cfg`, the command will be `+exec custom.cfg`)
 
 ### 2 - Running manually in the console
 
 * Open the console by pressing '
-* Type "exec <filename>" and hit Enter (eg: for filename "custom.cfg", the command will be "exec custom.cfg")
+* Type `exec <filename>` and hit Enter (eg: for filename `custom.cfg`, the command will be `exec custom.cfg`)
 
 ## License
 
