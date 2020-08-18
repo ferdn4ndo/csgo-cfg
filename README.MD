@@ -11,6 +11,12 @@ Save this file inside your CS:GO cfg folder. The path should look similar to
 Windows(C:) > Program Files (x86) > Steam > userdata > (your own numbers) > (your own 3 digit file) > local > cfg
 ```
 
+A shell script (for windows CMD) to find the default configuration file for CS:GO among other installed apps (in a 64bits machine with default installation folder):
+
+```
+cd %PROGRAMFILES(X86)% && dir * /s/b | findstr Steam\\userdata\\[0-9]*\\[0-9]*\\local\\cfg\\config.cfg
+```
+
 You may save it to any name you like, as long as it keeps the .cfg extension.
 
 To run, you have two options:
