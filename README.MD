@@ -5,16 +5,16 @@ Feel free to fork this file and adjust it accordingly to your needs.
 
 ## How to use?
 
-Save this file inside your CS:GO cfg folder. The path should look similar to 
+Save this file inside your CS:GO cfg folder. You cand find game install location using Steam:
+- In your library tab, right-click _Counter-Strike: Global Offensive_ and select __Properties__
+- Go to __Local Files__ tab
+- Select __BROWSE LOCAL FILES__. Windows Explorer will be opened in the folder where game is installed.
+- Navigate to _csgo > cfg_. This is the place where the file should be placed.
+
+For the default path installation, it should look similar to 
 
 ```
-Windows(C:) > Program Files (x86) > Steam > userdata > (your own numbers) > (your own 3 digit file) > local > cfg
-```
-
-A shell script (for windows CMD) to find the default configuration file for CS:GO among other installed apps (in a 64bits machine with default installation folder):
-
-```
-cd %PROGRAMFILES(X86)% && dir * /s/b | findstr Steam\\userdata\\[0-9]*\\[0-9]*\\local\\cfg\\config.cfg
+Windows(C:) > Program Files (x86) > Steam > steamapps > common > Counter-Strike Global Offensive > csgo > cfg
 ```
 
 You may save it to any name you like, as long as it keeps the .cfg extension.
