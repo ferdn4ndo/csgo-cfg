@@ -17,9 +17,9 @@ A shell script (for windows CMD) to find the default configuration file for CS:G
 cd %PROGRAMFILES(X86)% && dir * /s/b | findstr Steam\\userdata\\[0-9]*\\[0-9]*\\local\\cfg\\config.cfg
 ```
 
-You may save it to any name you like, as long as it keeps the .cfg extension.
+Keeping filename _autoexec.cfg_, the game will execute it everytime the game is launched.
 
-To run, you have two options:
+In cases you want to rename the file for whatever reason, you have two options to run:
 
 ### 1 - Setting the Steam launcher options (auto-loaded)
 
