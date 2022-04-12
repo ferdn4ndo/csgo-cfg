@@ -5,21 +5,23 @@ Feel free to fork this file and adjust it accordingly to your needs.
 
 ## How to use?
 
-Save this file inside your CS:GO cfg folder. You cand find game install location using Steam:
+Save this repository zip file (https://github.com/ferdn4ndo/csgo-cfg/archive/refs/heads/master.zip) and extract its contents (we need the `autoexec.cfg` file and the `configs` folder) inside your CS:GO cfg folder. 
+
+You can find the game files location using Steam:
 - In your library tab, right-click _Counter-Strike: Global Offensive_ and select __Properties__
 - Go to __Local Files__ tab
 - Select __BROWSE LOCAL FILES__. Windows Explorer will be opened in the folder where game is installed.
-- Navigate to _csgo > cfg_. This is the place where the file should be placed.
+- Navigate to _csgo > cfg_. This is the place where the files should be placed.
 
-For the default path installation, it should look similar to 
+By default, the path installation should look similar to:
 
 ```
 C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg
 ```
 
-Keeping filename _autoexec.cfg_, the game will execute it everytime the game is launched.
+Keeping the filename _autoexec.cfg_ will make the game execute it everytime it's launched.
 
-In cases you want to rename the file for whatever reason, you have two options to run:
+In cases you want to rename the filename for whatever reason, you have two options to run:
 
 ### 1 - Setting the Steam launcher options (auto-loaded)
 
