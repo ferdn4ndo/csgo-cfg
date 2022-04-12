@@ -14,7 +14,7 @@ Save this file inside your CS:GO cfg folder. You cand find game install location
 For the default path installation, it should look similar to 
 
 ```
-Windows(C:) > Program Files (x86) > Steam > steamapps > common > Counter-Strike Global Offensive > csgo > cfg
+C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg
 ```
 
 Keeping filename _autoexec.cfg_, the game will execute it everytime the game is launched.
